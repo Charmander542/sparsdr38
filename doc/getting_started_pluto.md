@@ -38,6 +38,8 @@ cd build
 cmake ..
 make
 sudo make install
+sudo ldconfig
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python3/dist-packages
 ```
 
 ## Loading the FPGA image
